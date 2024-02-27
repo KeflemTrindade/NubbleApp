@@ -5,7 +5,9 @@ import {Text} from './src/components/Text/Text';
 function App(): React.JSX.Element {
   return (
     <SafeAreaView>
-      <Text>Atherys</Text>
+      <Text preset="paragraphSmall" style={{color: 'red'}}>
+        Bem vindo
+      </Text>
     </SafeAreaView>
   );
 }
